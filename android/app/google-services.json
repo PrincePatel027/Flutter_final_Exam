@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47551496195",
+    "project_id": "advance-flutter-exam-af7f7",
+    "storage_bucket": "advance-flutter-exam-af7f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47551496195:android:6f54d43ba4fd15d64e0e36",
+        "android_client_info": {
+          "package_name": "com.example.advance_flutter_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB16kgBEHjhnpwpgLeEneUKA6MAUrB3dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
