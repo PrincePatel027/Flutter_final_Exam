@@ -1,16 +1,32 @@
-# advance_flutter_exam
 
-A new Flutter project.
+# Advance Flutter Exam
 
-## Getting Started
+This Flutter app integrates Firebase and SQLite for backend services and allows navigation between three pages: Home, Fetch, and Firebase Fetch. It uses named routes for easy page transitions and supports local data storage with SQLite.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Firebase initialization
+- Three pages: Home, Fetch, and Firebase Fetch
+- Named route navigation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Set up Firebase for your project.
+2. Configure `firebase_options.dart` using Firebase CLI (`flutterfire configure`).
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Navigation
+
+- `/`: HomePage
+- `/fetch`: FetchPage
+- `/firebase`: FirebaseFetchPage
