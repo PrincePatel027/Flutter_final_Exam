@@ -1,5 +1,6 @@
 import 'package:advance_flutter_exam/firebase_options.dart';
 import 'package:advance_flutter_exam/screens/pages/fetch_page.dart';
+import 'package:advance_flutter_exam/screens/pages/firebase_fetch_page.dart';
 import 'package:advance_flutter_exam/screens/pages/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (_) => const HomePage(),
         'fetch': (_) => const FetchPage(),
+        'firebase': (_) => const FirebaseFetchPage(),
       },
     );
   }

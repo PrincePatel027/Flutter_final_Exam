@@ -48,7 +48,14 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               Navigator.pushNamed(context, 'fetch');
             },
-            child: const Text("Fetch Data"),
+            child: const Text("Fetch LD"),
+          ),
+          const SizedBox(width: 12),
+          OutlinedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, 'firebase');
+            },
+            child: const Text("Fetch FFD"),
           ),
         ],
       ),

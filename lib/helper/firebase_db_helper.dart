@@ -37,4 +37,11 @@ class FirebaseDbHelper {
       });
     }
   }
+
+  fetchData() {
+    Stream<QuerySnapshot<Map<String, dynamic>>> data =
+        firestore.collection("Tasks").snapshots();
+
+    return data;
+  }
 }
